@@ -66,11 +66,16 @@ class multiplicationTable {
 //        //문제 5번
 //        int dan = 8;
 //
-//        for(int i = 1; i <= 1000; i++)
-//        {
+//        int i = 1;
+////        for(; i <= 1000; i++)
+////        {
+////            System.out.println(dan + " * " + i + " = " + dan * i);
+////        }
+//
+//        while (i <= 1000){
 //            System.out.println(dan + " * " + i + " = " + dan * i);
+//            i++;
 //        }
-
 
 
         // 출력
@@ -84,6 +89,21 @@ class multiplicationTable {
     8 * 7 = 56
     8 * 8 = 64
     8 * 9 = 72
-    */
+//    */
+//        //문제 6번 -100부터 25까지 출력
+//        int num = -100;
+//        while (num < 25){
+//            System.out.println(num);
+//            num++;
+//        }
+        // 문제 : 아래와 같이 출력해주세요.
+        // 문제 : 단을 * 1000까지 출력해주세요.
+        // 조건 : 곱하는 순서를 거꾸로 해주세요.
+//        //문제 7번
+//        int i = 1000;
+//        while (i != 0){
+//            System.out.println("8" + " * " + i + " = " + 8 * i);
+//            i--;
+//        }
     }
 }
