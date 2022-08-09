@@ -43,17 +43,14 @@ public class arr {
 //        System.out.println(arr2[2]);
 //
         int[] arr3 = new int[10];
-        int j = 1;
+        int sum = 0;
 
         for(int i = 0; i < arr3.length; i++)
         {
-            arr3[i] = j;
+            arr3[i] = (i + 1) * 10;
             System.out.println("배열"+ "["+i+"]" + " = " + arr3[i]);
-            j++;
-        }
-        int sum = 0;
-        for(int i = 0; i < arr3.length; i++){
             sum = sum + arr3[i];
+
         }
         System.out.println("합 : " + sum);
         System.out.println("평균" + " : " + sum / arr3.length);
