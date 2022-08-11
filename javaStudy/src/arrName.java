@@ -34,6 +34,7 @@ public class arrName {
         var ChulSooName = a.name = "철수";
         var ChulSooAge = a.age = 20;
         var ChulSooLove = a.love = false;
+        a.intorduce();
 
         System.out.println("이름 : " + ChulSooName);
         System.out.println("나이 : " + ChulSooAge);
@@ -45,6 +46,12 @@ class ChulSoo {
     int age;
     String name;
     boolean love;
+    void intorduce(){
+        int age = this.age;
+        String name = this.name;
+        boolean love = this.love;
+        System.out.println("이름 : " + name + " 나이 : " + age + " 사랑 : " + love);
+    }
 }
 //class ArrInt3 {
 //    int ChulSooAge;
