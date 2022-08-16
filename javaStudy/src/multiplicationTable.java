@@ -139,8 +139,8 @@ class multiplicationTable {
 //        }
 //        System.out.println(sum);
         //문제 11번
-        int cnt = 1;
-        int i = 1;
+//        int cnt = 1;
+//        int i = 1;
 //        while (cnt <= 10){
 //            while (i <= 3){
 //                System.out.println(i);
