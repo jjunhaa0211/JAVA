@@ -34,7 +34,7 @@ class calculator {
                 int x = sc.nextInt();
                 String z2 = "";
                 z2 = sc.next();
-                int y = sc.nextInt();
+                int y = sc.nextInt();![](../../../../../../../var/folders/w7/2zvwfvps3jdb_3vnr2j36d3h0000gn/T/TemporaryItems/NSIRD_screencaptureui_N3LLm5/스크린샷 2022-08-05 오후 2.03.02.png)
 
                 if (z2.equals("+")) {
                     System.out.println(x + " + " + y + " = " + (x + y));
