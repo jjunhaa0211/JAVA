@@ -1,6 +1,6 @@
-
-class multiplicationTable {
-    public static void main(String[] args) {
+//
+//class multiplicationTable {
+//    public static void main(String[] args) {
 
 //        //1번
 //        System.out.println("8 * 1 = 8");
@@ -157,5 +157,6 @@ class multiplicationTable {
 //            i = 1;
 //            System.out.println(cnt + "출력");
 //        }
-    }
-}
+//    }
+//}
+//

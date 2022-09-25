@@ -13,6 +13,24 @@
 9 * 9 = 81
 */
 
+//class gugudan {
+//    public static void main(String[] args) {
+//
+//        new 구구단출력기().작동();
+//    }
+//}
+//
+//class 구구단출력기 {
+//    void 작동() {
+//        for (int i = 2; i <= 9; i++) {
+//            System.out.println("== " + i + "단" + " ==");
+//            for(int j = 1; j <= 9; j++){
+//                System.out.println(i + " * " + j + " = " + i*j);
+//            }
+//        }
+//    }
+//}
+
 class gugudan {
     public static void main(String[] args) {
         new 구구단출력기().작동();
@@ -20,12 +38,15 @@ class gugudan {
 }
 
 class 구구단출력기 {
-    void 작동() {
-        for (int i = 2; i <= 9; i++) {
-            System.out.println("== " + i + "단" + " ==");
-            for(int j = 1; j <= 9; j++){
-                System.out.println(i + " * " + j + " = " + i*j);
+    // 구현시작
+        void 작동() {
+            for(int i = 2; i <= 9; i++)
+            {
+                System.out.println("--------" + i + "단" + "--------");
+                for(int j = 1; j <= 9; j++){
+                    System.out.println( i + " * " + j + " = " + i*j);
+                }
             }
         }
-    }
+    // 구현끝
 }
